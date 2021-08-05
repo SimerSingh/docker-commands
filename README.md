@@ -2,7 +2,7 @@
 List of docker commands
 
 
-### Running docker, Under the hood *run* command is combination of two commands *docker create* and *docker start*
+### Docker run, Under the hood *run* command is combination of two commands *docker create* and *docker start*
 *docker create* commands creates the container while *docker run* command runs the container.
 > docker run <image-name>
 
