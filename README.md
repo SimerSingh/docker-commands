@@ -11,7 +11,7 @@ List of docker commands
 ### To list all containers ever created running as well as stopped
 > docker ps --all
 
-### Starting docker container 
+### Creating docker container 
 > docker create <container-name>
 
 ### Starting docer container
@@ -33,6 +33,11 @@ List of docker commands
 ### To kill docker container
 > docker kill <container-d>
 *Docker kill will immidiately kill the container. This is not recommended*	
+
+### Running command or process inside container
+> docker exec -it <container-id> <command>
+*exec* allows to execute another command
+*-it* allow us to provide input to container
 
 
 
